@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["rad.iyadurai@gmail.com"]
   spec.summary       = "Stupid, experimental clone of minitest"
   spec.description   = ""
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/rathrio/stupid_test"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
