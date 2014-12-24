@@ -27,7 +27,7 @@ require 'stupid_test'
 
 class Dog
   def bark
-    "wuff"
+    "miau"
   end
 
   def has_four_legs?
@@ -41,7 +41,7 @@ end
 
 class DogTest < StupidTest::Test
   def test_bark_returns_wuff
-    assert_equal "miau", Dog.new.bark
+    assert_equal "wuff", Dog.new.bark
   end
 
   def test_has_four_legs
